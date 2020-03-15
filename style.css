@@ -2,7 +2,7 @@
  No media query for `xs` since this is the default in Bootstrap
 
 // Small devices (landscape phones, 576px and up) **/
-@media (min-width: 392px) {
+@media (min-width: 350px) {
     
 .navbar{
     background-color: #FAD000;
