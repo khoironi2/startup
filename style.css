@@ -1,0 +1,88 @@
+.navbar{
+    background-color: #FAD000;
+    font-size: 20px;
+    border-bottom: 1px solid white;
+}
+
+.navhover a:hover{
+    border-bottom: 1px solid white;
+}
+
+.slider{
+    height: 600px;
+    background-color: #FAD000;
+   padding-top: 120px;
+    
+}
+
+.slider .top{
+    color: cornsilk;
+    font-size: 18px;
+}
+
+.slider .midle{
+    color: cornsilk;
+    font-size: 25px;
+}
+.slider .bottom{
+    color: cornsilk;
+    font-size: 30px;
+}
+.slider button{
+    color: #FAD000;
+    font-size: 18px;
+    font-weight: 800;
+}
+
+
+.lihat{
+    background-color: #FAD000;
+    height: 130px;
+    margin-top: -80px;
+    padding-top: 30px;
+    border-top: 1px solid white;
+}
+.lihat .top{
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+.lihat .top span{
+    color: black;
+    font-size: 25px;
+}
+.lihat .bottom{
+    font-size: 15px;
+}
+
+.lihat button{
+    color: #FAD000;
+    font-size: 18px;
+    font-weight: 800;
+}
+
+.product{
+    margin-top: 123px;
+    
+}
+
+.carapesan{
+    margin-top: 80px;
+    padding-top: 30px;
+    height: 400px;
+    background-color: #F3F3F3;
+}
+
+.testimonial{
+    margin-top: 80px;
+    padding-top: 30px;
+    height: 400px;
+   
+}
+
+.contact{
+    margin-top: 80px;
+    padding-top: 30px;
+    height: 400px;
+    background-color: #F3F3F3;
+}
