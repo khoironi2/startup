@@ -11,7 +11,7 @@
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="fontawesome-free/css/all.min.css">
     <link rel="stylesheet" type="text/css" href="style.css">
-    <link rel="stylesheet" type="text/css" href="stylevideo.css">
+
 
     <title>BRAND DIGITAL | PRODUCT</title>
 
@@ -19,6 +19,7 @@
 </head>
 
 <body>
+    <!-- START NAV -->
     <nav class="navbar fixed-top navbar-expand-lg navbar-light">
         <div class="container">
             <a class="navbar-brand" href="index.html">
@@ -44,8 +45,9 @@
             </div>
         </div>
     </nav>
+    <!-- END NAV -->
 
-
+    <!-- START SLIDER -->
     <section class="slider">
 
         <div class="container">
@@ -72,6 +74,8 @@
 
     </section>
 
+    <!-- END SLIDER -->
+    <!-- START DEMO VIDEO -->
     <section class="demo">
         <div class="container">
             <div class="row justify-content-center">
@@ -124,14 +128,77 @@
         </div>
     </section>
 
+    <!-- ENDDEMO VIDEO -->
+
+    <!-- START TENTANG PRODUK -->
+    <section class="tentang">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <h1>Tentang Product</h1>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-lg kalimat">
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+                    industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type
+                    and scrambled it to make a type specimen book. It has survived not only five centuries, but also the
+                    leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s
+                    with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop
+                    publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                </div>
+
+                <div class="col tools">
+                    <h1>Tools</h1>
+                    <div class="row">
+                        <div class="col item">
+                            <img src="img/upload/icon/Image 1.png" alt="">
+                            <div class="keterangan">
+                                <h2>MAMP</h2>
+                                <p class="small">Download</p>
+                            </div>
+                        </div>
+
+                        <div class="col item">
+                            <img src="img/upload/icon/Image 2.png" alt="">
+                            <div class="keterangan">
+                                <h2>SUBLIME TEXT</h2>
+                                <p class="small">Download</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-lg ">
+                            <h2>Sistem Operasi</h2>
+                            <p class="small">Windows 10 / Sierra OS / Linux</p>
+                        </div>
+                        <div class="col-lg ">
+                            <h2>RAM</h2>
+                            <p class="small">Minimum 2 Gigabyte</p>
+                        </div>
+                        <div class="col-lg">
+                            <h2>PENYIMPANAN</h2>
+                            <p class="small">Storage kosong 10 Gigabyte</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+
+    <!-- END TENTANG PRODUK -->
 
 
 
 
 
 
-
-
+    <!-- START FOOTER -->
     <footer>
         <div class="container">
             <div class="row text-center">
@@ -141,6 +208,7 @@
             </div>
         </div>
     </footer>
+    <!-- END FOOTER -->
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
@@ -153,43 +221,7 @@
         integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
         crossorigin="anonymous"></script>
     <script src="https://use.fontawesome.com/1ef9b66c29.js"></script>
-    <script src="http://code.jquery.com/jquery-1.7.2.min.js"></script>
-    <script>
-        function resetTabs() {
-            $("#content > div").hide(); //Hide all content
-            $("#tabs a").attr("id", ""); //Reset id's      
-        }
 
-        var myUrl = window.location.href; //get URL
-        var myUrlTab = myUrl.substring(myUrl.indexOf("#")); // For localhost/tabs.html#tab2, myUrlTab = #tab2     
-        var myUrlTabName = myUrlTab.substring(0, 4); // For the above example, myUrlTabName = #tab
-
-        (function () {
-            $("#content > div").hide(); // Initially hide all content
-            $("#tabs li:first a").attr("id", "current"); // Activate first tab
-            $("#content > div:first").fadeIn(); // Show first tab content
-
-            $("#tabs a").on("click", function (e) {
-                e.preventDefault();
-                if ($(this).attr("id") == "current") { //detection for current tab
-                    return
-                }
-                else {
-                    resetTabs();
-                    $(this).attr("id", "current"); // Activate this
-                    $($(this).attr('name')).fadeIn(); // Show content for current tab
-                }
-            });
-
-            for (i = 1; i <= $("#tabs li").length; i++) {
-                if (myUrlTab == myUrlTabName + i) {
-                    resetTabs();
-                    $("a[name='" + myUrlTab + "']").attr("id", "current"); // Activate url tab
-                    $(myUrlTab).fadeIn(); // Show url tab content        
-                }
-            }
-        })()
-    </script>
 
 
     <script src="http://code.jquery.com/jquery-3.1.1.slim.min.js"></script>

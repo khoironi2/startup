@@ -8,6 +8,7 @@
     background-color: #FAD000;
     font-size: 13px;
     border-bottom: 1px solid white;
+    z-index: 9999999;
 }
 
 .navbar img{
@@ -75,7 +76,7 @@
     margin-top: -100px;
     text-align: center;
     margin-left: 1px;
-    margin-bottom: 120px;
+    margin-bottom: 10px;
    
 }
 .hape button{
@@ -386,10 +387,51 @@ button {
 /**END VIDEO*/
 /**END DEMO*/
 
+
+.tentang {
+  max-height: 800px;
+  text-align: justify;
+  padding-top: 10px;
+}
+
+.tentang h1{
+  font-size: 20px;
+}
+.tentang h2{
+  font-size: 20px;
+}
+
+.tentang p{
+  font-size: 13px;
+  text-align: left;
+}
+
+.tentang .kalimat{
+  width: 450px;
+}
+
+.tentang .tools{
+  text-align: left;
+  margin-bottom: 10px;
+  margin-top: 20px;
+  text-align: left;
+}
+.tentang .tools .item{
+  margin-bottom: 50px;
+  
+}
+.tentang .tools img{
+  height: 50px;
+  width: 50px;
+}
+.tentang .keterangan{
+  margin: -50px 60px;
+}
+
 /***End PAGE Prodcut***/
 
 
-/***START LIHAT PRODUCT***/
+/***START LIHAT PRODUCT LANDING PAGE***/
 .lihat{
     background-color: #FAD000;
     height: 130px;
@@ -416,9 +458,9 @@ button {
     font-weight: 600;
     
 }
-/***END LIHAT PRODUCT***/
+/***END LIHAT PRODUCT LANDING PAGE***/
 
-/***START PRODUCT***/
+/***START PRODUCT LANDING PAGE***/
 .product{
     margin-top: 30px;
     text-align: center;
