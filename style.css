@@ -3,7 +3,7 @@
 
 // Small devices (landscape phones, 576px and up) **/
 @media (min-width: 350px) {
-    
+    /*START NAVBAR**/
 .navbar{
     background-color: #FAD000;
     font-size: 13px;
@@ -19,6 +19,12 @@
     border-bottom: 1px solid white;
 }
 
+ /*END NAVBAR**/
+
+
+
+
+ /**START SLIDER LANDING PAGE**/
 .slider{
     height: 400px;
     background-color: #FAD000;
@@ -47,7 +53,11 @@
 .slider img{
     width: 0%;
 }
-/***Start Product**/
+
+/**END SLIDER LANDING PAGE**/
+
+
+/***START SLIDER PAGE PRODUCT**/
 .slider h1{
     color: white;
     margin-top: 1px;
@@ -70,7 +80,12 @@
     max-height: 30px;
     margin-top: -10px;
 }
-/**START DEMO*/
+/***END SLIDER PAGE PRODUCT**/
+
+
+
+
+/**START DEMO PAGE PRODUCT*/
 
 .demo{
     margin-top: -100px;
@@ -113,9 +128,12 @@
     
 }
 
-/**END DEMO*/
+/**END DEMO PRODUCT PAGE*/
 
 
+
+
+/*START TENTANG PAGE PRODUCT**/
 .tentang {
   max-height: 800px;
   text-align: justify;
@@ -157,7 +175,9 @@
   margin: -50px 60px;
 }
 
-/***End PAGE Prodcut***/
+/*END TENTANG PAGE PRODUCT**/
+
+
 
 
 /***START LIHAT PRODUCT LANDING PAGE***/
@@ -188,6 +208,9 @@
     
 }
 /***END LIHAT PRODUCT LANDING PAGE***/
+
+
+
 
 /***START PRODUCT LANDING PAGE***/
 .product{
@@ -222,14 +245,22 @@
 .items button{
     font-size: 13px;
 }
-/***END PRODUCT***/
+/***END PRODUCT LANDING PAGE***/
+
+
+
+/***START CARA PESAN LANDING PAGE***/
+
 .carapesan{
     margin-top: 80px;
     padding-top: 30px;
     height: 400px;
     background-color: #F3F3F3;
 }
+/***END CARA PESAN LANDING PAGE***/
 
+
+/***START TESTIMONIAL LANDING PAGE***/
 .testimonial{
     margin-top: 80px;
     padding-top: 30px;
@@ -237,6 +268,11 @@
    
 }
 
+
+/***END TESTIMONIAL LANDING PAGE***/
+
+
+/***START CONTACT LANDING PAGE***/
 .contact{
     margin-top: 80px;
     padding-top: 20px;
@@ -265,7 +301,10 @@ font-size: 15px;
 .contact p{
     font-size: 13px;
 }
+/***END CONTACT LANDING PAGE***/
 
+
+/***START FOOTER ***/
 
 footer{
     background-color: #1e272e;
@@ -283,7 +322,7 @@ footer a{
     color: white;
 }
 
-
+/***END FOOTER ***/
 
  }
 
@@ -294,6 +333,7 @@ footer a{
 
 /* Small devices (landscape phones, 576px and up)*/
 @media (min-width: 576px) { 
+    /**START NAVBAR**/
   .navbar{
     background-color: #FAD000;
     font-size: 13px;
@@ -308,7 +348,10 @@ footer a{
 .navhover a:hover{
     border-bottom: 1px solid white;
 }
+/**END NAVBAR**/
 
+
+/**START SLIDER LANDING PAGE**/
 .slider{
     height: 400px;
     background-color: #FAD000;
@@ -337,7 +380,10 @@ footer a{
 .slider img{
     width: 0%;
 }
-/***Start Product**/
+/**END SLIDER LANDING PAGE**/
+
+
+/**START SLIDER  PAGE PRODUCT**/
 .slider h1{
     color: white;
     margin-top: 1px;
@@ -360,7 +406,12 @@ footer a{
     max-height: 30px;
     margin-top: -10px;
 }
-/**START DEMO*/
+
+
+/**END SLIDER  PAGE PRODUCT**/
+
+
+/**START DEMO PAGE PRODUCT*/
 
 .demo{
     margin-top: -100px;
@@ -403,11 +454,13 @@ footer a{
     
 }
 
-/**END DEMO*/
+/**END DEMO PAGE PRODUCT*/
 
 
+
+/**START TENTANG PAGE PRODUCT*/
 .tentang {
-  max-height: 800px;
+  max-height: 600px;
   text-align: justify;
   padding-top: 10px;
 }
@@ -446,7 +499,7 @@ footer a{
   margin: -50px 60px;
 }
 
-/***End PAGE Prodcut***/
+/**END TENTANG PAGE PRODUCT*/
 
 
 /***START LIHAT PRODUCT LANDING PAGE***/
@@ -477,6 +530,9 @@ footer a{
     
 }
 /***END LIHAT PRODUCT LANDING PAGE***/
+
+
+
 
 /***START PRODUCT LANDING PAGE***/
 .product{
@@ -511,7 +567,10 @@ footer a{
 .items button{
     font-size: 13px;
 }
-/***END PRODUCT***/
+/***END PRODUCT LANDING PAGE***/
+
+
+/***START CARA PESAN LANDING PAGE***/
 .carapesan{
     margin-top: 80px;
     padding-top: 30px;
@@ -519,13 +578,21 @@ footer a{
     background-color: #F3F3F3;
 }
 
+/***END CARA PESAN LANDING PAGE***/
+
+
+/***START TESTIMONIAL LANDING PAGE***/
 .testimonial{
     margin-top: 80px;
     padding-top: 30px;
     height: 400px;
    
 }
+/***END TESTIMONIAL LANDING PAGE***/
 
+
+
+/***START CONTACT LANDING PAGE***/
 .contact{
     margin-top: 80px;
     padding-top: 20px;
@@ -555,7 +622,11 @@ font-size: 15px;
     font-size: 13px;
 }
 
+/***END CONTACT LANDING PAGE***/
 
+
+
+/**START FOOTER***/
 footer{
     background-color: #1e272e;
     padding-top: 8px;
@@ -569,6 +640,8 @@ footer p{
 footer a{
     color: white;
 }
+
+/**END FOOTER***/
 
 }
 
@@ -589,6 +662,8 @@ footer a{
 
 /** Medium devices (tablets, 768px and up)**/
 @media (min-width: 768px) {
+
+    /***START NAVBAR***/
     .navbar{
         background-color: #FAD000;
         font-size: 15px;
@@ -602,6 +677,11 @@ footer a{
     .navhover a:hover{
         border-bottom: 1px solid white;
     }
+
+    /***END NAVBAR***/
+
+
+    /***START SLIDER LANDING PAGE***/
     
     .slider{
         height: 350px;
@@ -629,7 +709,10 @@ footer a{
         font-weight: 800;
     }
     
-    /***Start Product**/
+    /***END  SLIDER LANDING PAGE***/
+
+
+   /***START SLIDER PAGE PRODUCT***/
     .slider h1{
         color: white;
         margin-top: 1px;
@@ -652,7 +735,12 @@ footer a{
         max-height: 30px;
         margin-top: -10px;
     }
-    /**START DEMO*/
+
+    /***ENDSLIDER PAGE PRODUCT***/
+
+
+
+    /***START DEMO PAGE PRODUCT***/
     
     .demo{
         margin-top: -100px;
@@ -672,11 +760,13 @@ footer a{
    
     
     
-    /**END DEMO*/
+    /***END DEMO PAGE PRODUCT***/
     
 
+
+    /***START TENTANG PAGE PRODUCT***/
     .tentang {
-      max-height: 800px;
+      max-height: 550px;
       text-align: justify;
       padding-top: 1px;
     }
@@ -715,9 +805,11 @@ footer a{
       margin: -50px 60px;
     }
     
-    /***End Prodcut***/
+  /***END TENTANG PAGE PRODUCT***/
     
     
+
+  /***START LIHAT LANDING PAGE***/
     .lihat{
         background-color: #FAD000;
         height: 130px;
@@ -744,6 +836,11 @@ footer a{
         font-weight: 800;
     }
     
+    /***END LIHAT LANDING PAGE***/
+
+
+
+    /***START PRODUCT LANDING PAGE***/
     .product{
         margin-top: 123px;
         
@@ -752,30 +849,65 @@ footer a{
         margin-left: 10px;
     }
     
+    /***END PRODUCT LANDING PAGE***/
+
+
+    /***START CARA PESAN LANDING PAGE***/
     .carapesan{
         margin-top: 80px;
         padding-top: 30px;
         height: 400px;
         background-color: #F3F3F3;
     }
-    
+    /***END CARA PESAN LANDING PAGE***/
+
+
+
+    /***START TESTIMONIAL LANDING PAGE***/
     .testimonial{
         margin-top: 80px;
         padding-top: 30px;
         height: 400px;
        
     }
-    
+    /***END TESTIMONIAL LANDING PAGE***/
+
+
+    /***START CONTACT LANDING PAGE***/
     .contact{
         margin-top: 80px;
         padding-top: 30px;
         height: 400px;
         background-color: #F3F3F3;
     }
- }
+
+
+    /***END CONTACT LANDING PAGE***/
+
+    /**START FOOTER***/
+    footer{
+        background-color: #1e272e;
+        padding-top: 8px;
+    }
+
+    footer p{
+        color: whitesmoke;
+        font-size: 15px;
+    }
+
+    footer a{
+        color: white;
+    }
+
+    /**END FOOTER***/
+    }
+
+
 
 /** Large devices (desktops, 992px and up) **/
 @media (min-width: 992px) { 
+
+    /***START NAVBAR***/
     .navbar{
         background-color: #FAD000;
         font-size: 15px;
@@ -789,6 +921,11 @@ footer a{
     .navhover a:hover{
         border-bottom: 1px solid white;
     }
+
+    /***END NAVBAR***/
+
+
+    /***START SLIDER LANDING PAGE***/
     
     .slider{
         height: 350px;
@@ -815,8 +952,10 @@ footer a{
         font-size: 18px;
         font-weight: 800;
     }
+
+    /***END SLIDER LANDING PAGE***/
     
-    /***Start Product**/
+    /***START SLIDER PAGE PRODUCT***/
     .slider h1{
         color: white;
         margin-top: 1px;
@@ -839,7 +978,11 @@ footer a{
         max-height: 30px;
         margin-top: -10px;
     }
-    /**START DEMO*/
+
+    /***END SLIDER PAGE PRODUCT***/
+
+
+    /***START DEMO PAGE PRODUCT***/
     
     .demo{
         margin-top: -100px;
@@ -859,11 +1002,13 @@ footer a{
    
     
     
-    /**END DEMO*/
+    /***END DEMO PAGE PRODUCT***/
     
     
+
+     /***START TENTANG PAGE PRODUCT***/
     .tentang {
-      max-height: 800px;
+      max-height: 400px;
       text-align: justify;
       padding-top: 1px;
     }
@@ -904,7 +1049,7 @@ footer a{
     .tentang .keterangan{
       margin: -50px 60px;
     }
-    /***End Prodcut***/
+   /***END TENTANG PAGE PRODUCT***/
     
     
     .lihat{
@@ -962,7 +1107,30 @@ footer a{
         background-color: #F3F3F3;
     }
 
+
+    /**START FOOTER***/
+footer{
+    background-color: #1e272e;
+    padding-top: 8px;
+}
+
+footer p{
+    color: whitesmoke;
+    font-size: 15px;
+}
+
+footer a{
+    color: white;
+}
+
+/**END FOOTER***/
+
  }
+
+
+
+
+
 
 /** Extra large devices (large desktops, 1200px and up) **/
 @media (min-width: 1200px) { 
@@ -1052,25 +1220,28 @@ footer a{
 
     
     .tentang {
-      max-height: 800px;
+      max-height: 500px;
       text-align: justify;
       padding-top: 1px;
     }
     
     .tentang h1{
-      font-size: 20px;
+      font-size: 25px;
     }
     .tentang h2{
-      font-size: 20px;
+      font-size: 25px;
     }
     
     .tentang p{
-      font-size: 13px;
+      font-size: 15px;
       text-align: left;
     }
     
     .tentang .kalimat{
       min-width: 800px;
+    }
+    .tentang .kalimat p{
+        font-size: 18px;
     }
     
     .tentang .tools{
@@ -1151,5 +1322,22 @@ footer a{
         height: 400px;
         background-color: #F3F3F3;
     }
+
+    /**START FOOTER***/
+    footer{
+        background-color: #1e272e;
+        padding-top: 8px;
+    }
+
+    footer p{
+        color: whitesmoke;
+        font-size: 15px;
+    }
+
+    footer a{
+        color: white;
+    }
+
+    /**END FOOTER***/
 
  }
