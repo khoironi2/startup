@@ -43,11 +43,9 @@
     font-size: 13px;
     font-weight: 800;
 }
-
 .slider img{
-display: none;
+    width: 0%;
 }
-
 /***Start Product**/
 .slider h1{
     color: white;
@@ -470,10 +468,34 @@ button {
 
 .contact{
     margin-top: 80px;
-    padding-top: 30px;
-    height: 400px;
+    padding-top: 20px;
+    height: 500px;
     background-color: #F3F3F3;
+    text-align: center;
 }
+.contact .contactitem{
+  
+    width: 200px;
+    max-height: 190px;
+    margin-bottom: 5px;
+}
+
+.contact h1{
+font-size: 20px;
+}
+.contact h2{
+font-size: 15px;
+}
+
+.contact img{
+    height: 20%;
+    margin: 5px 5px;
+}
+.contact p{
+    font-size: 13px;
+}
+
+
 
 
  }
