@@ -24,6 +24,14 @@
 
 
 
+
+
+
+
+
+
+
+
  /**START SLIDER LANDING PAGE**/
 .slider{
     height: 400px;
@@ -57,6 +65,20 @@
 /**END SLIDER LANDING PAGE**/
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /***START SLIDER PAGE PRODUCT**/
 .slider h1{
     color: white;
@@ -81,6 +103,17 @@
     margin-top: -10px;
 }
 /***END SLIDER PAGE PRODUCT**/
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -133,6 +166,18 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
 /*START TENTANG PAGE PRODUCT**/
 .tentang {
   max-height: 800px;
@@ -180,6 +225,90 @@
 
 
 
+
+
+
+
+/*START CHECKOUT PAGE**/
+.checkout{
+    margin-top: -150px;
+    text-align: center;
+}
+/*END CHECKOUT PAGE**/
+/*START DETAIL CHECKOUT PAGE**/
+.detailproduct{
+   background-color: white;
+    height: 400px;
+    width: 300px;
+    padding: 20px 20px;
+    margin-bottom: 20px;
+}
+.detailproduct img{
+    max-width: 150px;
+}
+
+.detailproduct h2{
+    font-size: 13px;
+}
+
+.subdetail{
+    margin: 10px -10px;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.subdetail2{
+    margin-top: 10px;
+}
+
+.subdetail2 input{
+    max-width: 300px;
+}
+/*END DETAIL CHECKOUT PAGE**/
+
+
+
+
+
+
+/*START PEMBAYARAN CHECKOUT PAGE**/
+.pembayaran{
+    background-color: white;
+    width: 300px;
+    height: 300px;    
+   
+    padding: 15px 15px;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+
+.pembayaran h1{
+    font-size: 17px;
+}
+
+.pembayaran button{
+    color: white;
+    font-weight: 600;
+    width: 100%;
+    margin-top: 40px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+/*END PEMBAYARAN CHECKOUT PAGE**/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /***START LIHAT PRODUCT LANDING PAGE***/
 .lihat{
     background-color: #FAD000;
@@ -208,6 +337,17 @@
     
 }
 /***END LIHAT PRODUCT LANDING PAGE***/
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -249,6 +389,21 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /***START CARA PESAN LANDING PAGE***/
 
 .carapesan{
@@ -258,6 +413,20 @@
     background-color: #F3F3F3;
 }
 /***END CARA PESAN LANDING PAGE***/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /***START TESTIMONIAL LANDING PAGE***/
@@ -270,6 +439,19 @@
 
 
 /***END TESTIMONIAL LANDING PAGE***/
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /***START CONTACT LANDING PAGE***/
@@ -302,6 +484,14 @@ font-size: 15px;
     font-size: 13px;
 }
 /***END CONTACT LANDING PAGE***/
+
+
+
+
+
+
+
+
 
 
 /***START FOOTER ***/
@@ -351,6 +541,15 @@ footer a{
 /**END NAVBAR**/
 
 
+
+
+
+
+
+
+
+
+
 /**START SLIDER LANDING PAGE**/
 .slider{
     height: 400px;
@@ -383,6 +582,14 @@ footer a{
 /**END SLIDER LANDING PAGE**/
 
 
+
+
+
+
+
+
+
+
 /**START SLIDER  PAGE PRODUCT**/
 .slider h1{
     color: white;
@@ -409,6 +616,15 @@ footer a{
 
 
 /**END SLIDER  PAGE PRODUCT**/
+
+
+
+
+
+
+
+
+
 
 
 /**START DEMO PAGE PRODUCT*/
@@ -458,6 +674,14 @@ footer a{
 
 
 
+
+
+
+
+
+
+
+
 /**START TENTANG PAGE PRODUCT*/
 .tentang {
   max-height: 600px;
@@ -502,6 +726,85 @@ footer a{
 /**END TENTANG PAGE PRODUCT*/
 
 
+
+
+
+
+
+/*START CHECKOUT PAGE**/
+.checkout{
+    margin-top: -100px;
+}
+/*END CHECKOUT PAGE**/
+/*START DETAIL CHECKOUT PAGE**/
+.detailproduct{
+   background-color: white;
+    height: 350px;
+    width: 700px;
+    padding: 20px 20px;
+}
+.detailproduct img{
+    max-width: 200px;
+}
+
+.detailproduct h2{
+    font-size: 17px;
+}
+
+.subdetail{
+    margin: -130px 200px;
+    width: 500px;
+    margin-bottom: 90px;
+}
+
+.subdetail2{
+    margin-top: 10px;
+}
+
+.subdetail2 input{
+    max-width: 300px;
+}
+/*END DETAIL CHECKOUT PAGE**/
+
+
+
+
+
+
+/*START PEMBAYARAN CHECKOUT PAGE**/
+.pembayaran{
+    background-color: white;
+    width: 100px;
+    height: 350px;    
+    margin-left: 50px;
+    padding: 15px 15px;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+
+.pembayaran h1{
+    font-size: 17px;
+}
+
+.pembayaran button{
+    color: white;
+    font-weight: 600;
+    width: 100%;
+    margin-top: 90px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+/*END PEMBAYARAN CHECKOUT PAGE**/
+
+
+
+
+
+
+
+
+
+
 /***START LIHAT PRODUCT LANDING PAGE***/
 .lihat{
     background-color: #FAD000;
@@ -530,6 +833,14 @@ footer a{
     
 }
 /***END LIHAT PRODUCT LANDING PAGE***/
+
+
+
+
+
+
+
+
 
 
 
@@ -570,6 +881,14 @@ footer a{
 /***END PRODUCT LANDING PAGE***/
 
 
+
+
+
+
+
+
+
+
 /***START CARA PESAN LANDING PAGE***/
 .carapesan{
     margin-top: 80px;
@@ -581,6 +900,15 @@ footer a{
 /***END CARA PESAN LANDING PAGE***/
 
 
+
+
+
+
+
+
+
+
+
 /***START TESTIMONIAL LANDING PAGE***/
 .testimonial{
     margin-top: 80px;
@@ -589,6 +917,16 @@ footer a{
    
 }
 /***END TESTIMONIAL LANDING PAGE***/
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -623,6 +961,13 @@ font-size: 15px;
 }
 
 /***END CONTACT LANDING PAGE***/
+
+
+
+
+
+
+
 
 
 
@@ -681,6 +1026,14 @@ footer a{
     /***END NAVBAR***/
 
 
+
+
+
+
+
+
+
+
     /***START SLIDER LANDING PAGE***/
     
     .slider{
@@ -712,6 +1065,15 @@ footer a{
     /***END  SLIDER LANDING PAGE***/
 
 
+
+
+
+
+
+
+
+
+
    /***START SLIDER PAGE PRODUCT***/
     .slider h1{
         color: white;
@@ -740,6 +1102,15 @@ footer a{
 
 
 
+
+
+
+
+
+
+
+
+
     /***START DEMO PAGE PRODUCT***/
     
     .demo{
@@ -762,6 +1133,15 @@ footer a{
     
     /***END DEMO PAGE PRODUCT***/
     
+
+
+
+
+
+
+
+
+
 
 
     /***START TENTANG PAGE PRODUCT***/
@@ -809,6 +1189,81 @@ footer a{
     
     
 
+
+
+
+  
+
+/*START CHECKOUT PAGE**/
+.checkout{
+    margin-top: -100px;
+}
+/*END CHECKOUT PAGE**/
+/*START DETAIL CHECKOUT PAGE**/
+.detailproduct{
+   background-color: white;
+    height: 350px;
+    width: 700px;
+    padding: 20px 20px;
+}
+.detailproduct img{
+    max-width: 200px;
+}
+
+.detailproduct h2{
+    font-size: 17px;
+}
+
+.subdetail{
+    margin: -130px 200px;
+    width: 500px;
+    margin-bottom: 90px;
+}
+
+.subdetail2{
+    margin-top: 10px;
+}
+
+.subdetail2 input{
+    max-width: 300px;
+}
+/*END DETAIL CHECKOUT PAGE**/
+
+
+
+
+
+
+/*START PEMBAYARAN CHECKOUT PAGE**/
+.pembayaran{
+    background-color: white;
+    width: 100px;
+    height: 350px;    
+    margin-left: 50px;
+    padding: 15px 15px;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+
+.pembayaran h1{
+    font-size: 17px;
+}
+
+.pembayaran button{
+    color: white;
+    font-weight: 600;
+    width: 100%;
+    margin-top: 90px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+/*END PEMBAYARAN CHECKOUT PAGE**/
+
+
+
+
+
+
   /***START LIHAT LANDING PAGE***/
     .lihat{
         background-color: #FAD000;
@@ -840,6 +1295,13 @@ footer a{
 
 
 
+
+
+
+
+
+
+
     /***START PRODUCT LANDING PAGE***/
     .product{
         margin-top: 123px;
@@ -850,6 +1312,14 @@ footer a{
     }
     
     /***END PRODUCT LANDING PAGE***/
+
+
+
+
+
+
+
+
 
 
     /***START CARA PESAN LANDING PAGE***/
@@ -863,6 +1333,14 @@ footer a{
 
 
 
+
+
+
+
+
+
+
+
     /***START TESTIMONIAL LANDING PAGE***/
     .testimonial{
         margin-top: 80px;
@@ -871,6 +1349,15 @@ footer a{
        
     }
     /***END TESTIMONIAL LANDING PAGE***/
+
+
+
+
+
+
+
+
+
 
 
     /***START CONTACT LANDING PAGE***/
@@ -883,6 +1370,16 @@ footer a{
 
 
     /***END CONTACT LANDING PAGE***/
+
+
+
+
+
+
+
+
+
+
 
     /**START FOOTER***/
     footer{
@@ -925,6 +1422,17 @@ footer a{
     /***END NAVBAR***/
 
 
+
+
+
+
+
+
+
+
+
+
+
     /***START SLIDER LANDING PAGE***/
     
     .slider{
@@ -955,6 +1463,15 @@ footer a{
 
     /***END SLIDER LANDING PAGE***/
     
+
+
+
+
+
+
+
+
+
     /***START SLIDER PAGE PRODUCT***/
     .slider h1{
         color: white;
@@ -982,6 +1499,14 @@ footer a{
     /***END SLIDER PAGE PRODUCT***/
 
 
+
+
+
+
+
+
+
+
     /***START DEMO PAGE PRODUCT***/
     
     .demo{
@@ -1005,6 +1530,15 @@ footer a{
     /***END DEMO PAGE PRODUCT***/
     
     
+
+
+
+
+
+
+
+
+
 
      /***START TENTANG PAGE PRODUCT***/
     .tentang {
@@ -1051,7 +1585,85 @@ footer a{
     }
    /***END TENTANG PAGE PRODUCT***/
     
-    
+
+
+
+
+
+   
+
+/*START CHECKOUT PAGE**/
+.checkout{
+    margin-top: -100px;
+}
+/*END CHECKOUT PAGE**/
+/*START DETAIL CHECKOUT PAGE**/
+.detailproduct{
+   background-color: white;
+    height: 350px;
+    width: 700px;
+    padding: 20px 20px;
+}
+.detailproduct img{
+    max-width: 200px;
+}
+
+.detailproduct h2{
+    font-size: 17px;
+}
+
+.subdetail{
+    margin: -130px 200px;
+    width: 500px;
+    margin-bottom: 90px;
+}
+
+.subdetail2{
+    margin-top: 10px;
+}
+
+.subdetail2 input{
+    max-width: 300px;
+}
+/*END DETAIL CHECKOUT PAGE**/
+
+
+
+
+
+
+/*START PEMBAYARAN CHECKOUT PAGE**/
+.pembayaran{
+    background-color: white;
+    width: 100px;
+    height: 350px;    
+    margin-left: 50px;
+    padding: 15px 15px;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+
+.pembayaran h1{
+    font-size: 17px;
+}
+
+.pembayaran button{
+    color: white;
+    font-weight: 600;
+    width: 100%;
+    margin-top: 90px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+/*END PEMBAYARAN CHECKOUT PAGE**/
+
+
+
+
+
+
+
+    /***START LIHAT LANDING PAGE***/
     .lihat{
         background-color: #FAD000;
         height: 130px;
@@ -1077,7 +1689,17 @@ footer a{
         font-size: 18px;
         font-weight: 800;
     }
+
+    /***ENDLIHAT LANDING PAGE***/
     
+
+
+
+
+
+
+
+    /***START PRODUCT LANDING PAGE***/
     .product{
         margin-top: 123px;
         
@@ -1085,21 +1707,50 @@ footer a{
     .product .badge{
         margin-left: 10px;
     }
-    
+
+    /***END PRODUCT LANDING PAGE***/
+
+
+
+
+
+
+
+
+
+    /***START CARA PESAN LANDING PAGE***/
     .carapesan{
         margin-top: 80px;
         padding-top: 30px;
         height: 400px;
         background-color: #F3F3F3;
     }
+
+    /***END CARA PESAN LANDING PAGE***/
     
+
+
+
+
+
+
+    /***START TESTIMONIAL LANDING PAGE***/
     .testimonial{
         margin-top: 80px;
         padding-top: 30px;
         height: 400px;
        
     }
+
+    /***END TESTIMONIAL LANDING PAGE***/
     
+
+
+
+
+
+
+    /***START CONTACT LANDING PAGE***/
     .contact{
         margin-top: 80px;
         padding-top: 30px;
@@ -1107,23 +1758,31 @@ footer a{
         background-color: #F3F3F3;
     }
 
+    /***END CONTACT LANDING PAGE***/
+
+
+
+
+
+
+
 
     /**START FOOTER***/
-footer{
-    background-color: #1e272e;
-    padding-top: 8px;
-}
+    footer{
+        background-color: #1e272e;
+        padding-top: 8px;
+    }
 
-footer p{
-    color: whitesmoke;
-    font-size: 15px;
-}
+    footer p{
+        color: whitesmoke;
+        font-size: 15px;
+    }
 
-footer a{
-    color: white;
-}
+    footer a{
+        color: white;
+    }
 
-/**END FOOTER***/
+    /**END FOOTER***/
 
  }
 
@@ -1134,6 +1793,7 @@ footer a{
 
 /** Extra large devices (large desktops, 1200px and up) **/
 @media (min-width: 1200px) { 
+    /***START NAVBAR***/
     .navbar{
         background-color: #FAD000;
         font-size: 15px;
@@ -1147,7 +1807,15 @@ footer a{
     .navhover a:hover{
         border-bottom: 1px solid white;
     }
+    /***END NAVBAR***/
     
+
+
+
+
+
+
+    /***START SLIDER LANDING PAGE***/
     .slider{
         height: 350px;
         background-color: #FAD000;
@@ -1173,8 +1841,16 @@ footer a{
         font-size: 18px;
         font-weight: 800;
     }
+
+    /***END SLIDER LANDING PAGE***/
     
-    /***Start Product**/
+
+
+
+
+
+
+    /***START SLIDER PAGE PRODUCT***/
     .slider h1{
         color: white;
         margin-top: 1px;
@@ -1197,7 +1873,16 @@ footer a{
         max-height: 30px;
         margin-top: 10px;
     }
-    /**START DEMO*/
+    /***END SLIDER PAGE PRODUCT***/
+
+
+
+
+
+
+
+
+    /***START DEMO PAGE PRODUCT***/
     
     .demo{
         margin-top: -100px;
@@ -1216,9 +1901,16 @@ footer a{
     }
    
     
-    /**END DEMO*/
+    /***END DEMO PAGE PRODUCT***/
 
-    
+
+
+
+
+
+
+
+    /***START TENTANG PAGE PRODUCT***/
     .tentang {
       max-height: 500px;
       text-align: justify;
@@ -1265,9 +1957,86 @@ footer a{
       margin: -50px 60px;
     }
     
-    /***End Prodcut***/
+    /***END TENTANG PAGE PRODUCT***/
     
     
+
+
+
+
+
+    
+
+/*START CHECKOUT PAGE**/
+.checkout{
+    margin-top: -100px;
+}
+/*END CHECKOUT PAGE**/
+/*START DETAIL CHECKOUT PAGE**/
+.detailproduct{
+   background-color: white;
+    height: 350px;
+    width: 700px;
+    padding: 20px 20px;
+}
+.detailproduct img{
+    max-width: 200px;
+}
+
+.detailproduct h2{
+    font-size: 17px;
+}
+
+.subdetail{
+    margin: -130px 200px;
+    width: 500px;
+    margin-bottom: 90px;
+}
+
+.subdetail2{
+    margin-top: 10px;
+}
+
+.subdetail2 input{
+    max-width: 300px;
+}
+/*END DETAIL CHECKOUT PAGE**/
+
+
+
+
+
+
+/*START PEMBAYARAN CHECKOUT PAGE**/
+.pembayaran{
+    background-color: white;
+    width: 100px;
+    height: 350px;    
+    margin-left: 50px;
+    padding: 15px 15px;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+
+.pembayaran h1{
+    font-size: 17px;
+}
+
+.pembayaran button{
+    color: white;
+    font-weight: 600;
+    width: 100%;
+    margin-top: 90px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+/*END PEMBAYARAN CHECKOUT PAGE**/
+
+
+
+
+
+    /***START LIHAT LANDING PAGE***/
     .lihat{
         background-color: #FAD000;
         height: 130px;
@@ -1293,7 +2062,15 @@ footer a{
         font-size: 18px;
         font-weight: 800;
     }
+
+    /***END LIHAT LANDING PAGE***/
     
+
+
+
+
+
+    /***START PRODUCT LANDING PAGE***/
     .product{
         margin-top: 123px;
         
@@ -1301,27 +2078,55 @@ footer a{
     .product .badge{
         margin-left: 10px;
     }
+
+    /***END PRODUCT LANDING PAGE***/
     
+
+
+
+
+    /***START CARA PESAN LANDING PAGE***/
     .carapesan{
         margin-top: 80px;
         padding-top: 30px;
         height: 400px;
         background-color: #F3F3F3;
     }
+
+    /***END CARA PESAN LANDING PAGE***/
     
+
+
+
+
+    /***START TESTIMONIAL LANDING PAGE***/
     .testimonial{
         margin-top: 80px;
         padding-top: 30px;
         height: 400px;
        
     }
+
+
+    /***END TESTIMONIAL LANDING PAGE***/
     
+
+
+
+
+    /***START CONTACT LANDING PAGE***/
     .contact{
         margin-top: 80px;
         padding-top: 30px;
         height: 400px;
         background-color: #F3F3F3;
     }
+
+    /***END CONTACT LANDING PAGE***/
+
+
+
+
 
     /**START FOOTER***/
     footer{
