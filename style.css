@@ -407,7 +407,7 @@ button {
 }
 
 .tentang .kalimat{
-  width: 450px;
+  min-width:250px;
 }
 
 .tentang .tools{
@@ -649,7 +649,7 @@ footer a{
         margin-top: -100px;
         text-align: center;
         margin-left: 1px;
-        margin-bottom: 120px;
+        margin-bottom: 10px;
        
     }
     .hape button{
@@ -936,6 +936,47 @@ footer a{
     /**END VIDEO*/
     /**END DEMO*/
     
+
+    .tentang {
+      max-height: 800px;
+      text-align: justify;
+      padding-top: 1px;
+    }
+    
+    .tentang h1{
+      font-size: 20px;
+    }
+    .tentang h2{
+      font-size: 20px;
+    }
+    
+    .tentang p{
+      font-size: 13px;
+      text-align: left;
+    }
+    
+    .tentang .kalimat{
+      min-width: 450px;
+    }
+    
+    .tentang .tools{
+      text-align: left;
+      margin-bottom: 20px;
+      margin-top: 1px;
+      text-align: left;
+    }
+    .tentang .tools .item{
+      margin-bottom: 50px;
+      
+    }
+    .tentang .tools img{
+      height: 50px;
+      width: 50px;
+    }
+    .tentang .keterangan{
+      margin: -50px 60px;
+    }
+    
     /***End Prodcut***/
     
     
@@ -1066,7 +1107,7 @@ footer a{
         margin-top: -100px;
         text-align: center;
         margin-left: 1px;
-        margin-bottom: 120px;
+        margin-bottom: 50px;
        
     }
     .hape button{
@@ -1353,6 +1394,49 @@ footer a{
     /**END VIDEO*/
     /**END DEMO*/
     
+    
+    .tentang {
+      max-height: 800px;
+      text-align: justify;
+      padding-top: 1px;
+    }
+    
+    .tentang h1{
+      font-size: 20px;
+    }
+    .tentang h2{
+      font-size: 20px;
+    }
+    
+    .tentang p{
+      font-size: 13px;
+      text-align: left;
+    }
+    
+    .tentang .kalimat{
+      min-width: 700px;
+    }
+    
+    .tentang .tools{
+      text-align: left;
+      margin-bottom: 20px;
+      margin-top: 1px;
+      text-align: left;
+     
+      
+    }
+    .tentang .tools .item{
+      margin-bottom: 50px;
+     
+      
+    }
+    .tentang .tools img{
+      height: 50px;
+      width: 50px;
+    }
+    .tentang .keterangan{
+      margin: -50px 60px;
+    }
     /***End Prodcut***/
     
     
@@ -1484,7 +1568,7 @@ footer a{
         margin-top: -100px;
         text-align: center;
         margin-left: 1px;
-        margin-bottom: 120px;
+        margin-bottom: 60px;
        
     }
     .hape button{
@@ -1770,6 +1854,50 @@ footer a{
       
     /**END VIDEO*/
     /**END DEMO*/
+
+    
+    .tentang {
+      max-height: 800px;
+      text-align: justify;
+      padding-top: 1px;
+    }
+    
+    .tentang h1{
+      font-size: 20px;
+    }
+    .tentang h2{
+      font-size: 20px;
+    }
+    
+    .tentang p{
+      font-size: 13px;
+      text-align: left;
+    }
+    
+    .tentang .kalimat{
+      min-width: 800px;
+    }
+    
+    .tentang .tools{
+      text-align: left;
+      margin-bottom: 20px;
+      margin-top: 1px;
+      text-align: left;
+     
+      
+    }
+    .tentang .tools .item{
+      margin-bottom: 50px;
+     
+      
+    }
+    .tentang .tools img{
+      height: 50px;
+      width: 50px;
+    }
+    .tentang .keterangan{
+      margin: -50px 60px;
+    }
     
     /***End Prodcut***/
     
