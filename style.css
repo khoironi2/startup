@@ -496,6 +496,20 @@ font-size: 15px;
 }
 
 
+footer{
+    background-color: #1e272e;
+    padding-top: 8px;
+}
+
+footer p{
+    color: whitesmoke;
+    font-size: 15px;
+}
+
+footer a{
+    color: white;
+}
+
 
 
  }
