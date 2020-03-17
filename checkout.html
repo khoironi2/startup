@@ -81,15 +81,13 @@
                     <div class="col subdetail2">
                         <hr>
                         <p><i class="fas fa-user-shield"></i> Berikan Akses Product Kepada <span
-                                class="badge badge-danger">andreas@gmail.com</span> </p>
+                                class="badge badge-danger" id="abc"></span> </p>
+                        <p><i class="fas fa-user-shield"></i> Nomor Yang Bisa Dihubungi <span class="badge badge-danger"
+                                id="def"></span> </p>
+                        <p><i class="fas fa-user-shield"></i> Nama Lengkap <span class="badge badge-danger"
+                                id="hij"></span> </p>
 
-                        <div class="input-group">
-                            <div class="input-group-prepend">
-                                <div class="input-group-text"><i class="fas fa-envelope"></i></div>
-                            </div>
-                            <input class="form-control" type="text" placeholder="andreas@gmail.com">
-                        </div>
-                        <p class="small">Pastikan email yang anda ketik sudah benar</p>
+
                     </div>
 
 
@@ -103,32 +101,48 @@
                     <div class="row">
                         <div class="col">
                             <p class="small">Harga Produk : <b>Rp. 500.000</b></span>
+                                <input type="text" hidden value="500.000" id="harga">
+
                         </div>
                     </div>
                     <hr>
                     <div class="row">
                         <div class="col">
                             <p>Suport Konsultasi </p>
-                            <div class="custom-control custom-switch">
-                                <input type="checkbox" class="custom-control-input" id="customSwitch1">
-                                <label class="custom-control-label" for="customSwitch1">1 Bulan <b>Rp.
-                                        150.000</b></label>
+                            <select class="custom-select">
+
+                                <option value="150.000">1 Bulan <span>Rp. 150.000</span></option>
+                                <option value="250.000">2 Bulan <span>Rp. 300.000</span></option>
+                                <option value="250.000">3 Bulan <span>Rp. 250.000</span></option>
+                            </select>
+                            <hr>
+                            <div class="input-group">
+                                <div class="input-group-prepend">
+                                    <div class="input-group-text"><i class="fas fa-envelope"></i></div>
+                                </div>
+                                <input class="form-control" type="email" id="email" placeholder="E- Mail">
+                            </div>
+                            <hr>
+                            <div class="input-group">
+                                <div class="input-group-prepend">
+                                    <div class="input-group-text"><i class="fab fa-whatsapp-square"></i></div>
+                                </div>
+                                <input class="form-control" type="text" id="telpon" placeholder="Telpon">
+                            </div>
+                            <hr>
+                            <div class="input-group">
+                                <div class="input-group-prepend">
+                                    <div class="input-group-text"><i class="fas fa-user-tag"></i></div>
+                                </div>
+                                <input class="form-control" type="text" id="nama" placeholder="Nama Lengkap">
                             </div>
 
-                            <div class="custom-control custom-switch">
-                                <input type="checkbox" class="custom-control-input" id="customSwitch2">
-                                <label class="custom-control-label" for="customSwitch2">2 Bulan <b>Rp.
-                                        300.000</b></label>
-                            </div>
 
-                            <div class="custom-control custom-switch">
-                                <input type="checkbox" class="custom-control-input" id="customSwitch3">
-                                <label class="custom-control-label" for="customSwitch3">3 Bulan <b>Rp.
-                                        250.000</b></label>
-                            </div>
+
+
                         </div>
 
-                        <button type="button" class="btn btn-warning">LANJUTKAN PEMBAYARAN</button>
+                        <button type="button" id="cd" class="btn btn-warning">LANJUTKAN PEMBAYARAN</button>
                     </div>
                 </div>
                 <!-- END PEMBAYARAN -->
@@ -180,6 +194,7 @@
 
 
     <script src="http://code.jquery.com/jquery-3.1.1.slim.min.js"></script>
+    <script type="text/javascript" src="js/mycode.js"></script>
 
 </body>
 
